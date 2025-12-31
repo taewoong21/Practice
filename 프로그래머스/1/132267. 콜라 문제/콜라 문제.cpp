@@ -3,7 +3,8 @@
 
 using namespace std;
 
-int solution(int a, int b, int n) {
+int solution(int a, int b, int n) 
+{
     int answer = 0;
     int remainder = 0;
     
