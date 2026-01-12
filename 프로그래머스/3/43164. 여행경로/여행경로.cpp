@@ -21,7 +21,6 @@ void dfs(string cur, vector<string>& routes, vector<vector<string>>& tickets)
         return;
     }
 
-    // 3. 현재 공항(cur)에서 갈 수 있는 다음 공항 탐색
     for (int i = 0; i < tickets.size(); ++i) 
     {
         if (!visited[i] && tickets[i][0] == cur) 
